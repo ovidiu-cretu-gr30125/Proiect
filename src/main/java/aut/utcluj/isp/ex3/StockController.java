@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * @author stefan
  */
-public class git StockController {
+public class  StockController {
     /**
      * Add product to catalogue
      *
