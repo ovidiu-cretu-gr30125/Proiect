@@ -7,5 +7,5 @@
 ## Chris Ghioltan, mare barosan
 ## Alisa Oanta care-i tare-n clanta 
 ## Deni Felecan ce rupe matricea Jordan
-## Ale Hategan la care-i place in Logan
+## Ale Hategan fara husa pe volan
 ![image](isp.jpg)
