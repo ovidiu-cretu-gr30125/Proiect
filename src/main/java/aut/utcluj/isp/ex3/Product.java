@@ -10,7 +10,7 @@ public class Product {
 
     public Product(String id, String name, Double price) {
         this.id=id;
-        this.name=name;
+        this.name=name; //commu meu
         this.price=price; ///comm
     }
 
