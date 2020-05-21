@@ -1,12 +1,11 @@
 package aut.utcluj.isp.ex3;
 
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author stefan
  */
-public class  StockController {
+public class StockController {
     /**
      * Add product to catalogue
      *
@@ -14,8 +13,17 @@ public class  StockController {
      * @param quantity - number of times the product should be added
      * @apiNote: if products with the same products id already exists, assume that @param product has the same data
      */
+    private Map<String, Product> catalogueProducts = new HashMap<String, Product>();
+    private List<Product> productList = new ArrayList<>();
+
     public void addProductToCatalogue(final Product product, final int quantity) {
-        throw new UnsupportedOperationException("Not supported yet.");
+
+        if (!catalogueProducts.containsKey(product.getId())) {
+            catalogueProducts.put(product.getId(), product);
+        }
+        for (int i = 0; i < quantity; i++) {
+            productList.add(product);
+        }
     }
 
     /**
@@ -23,8 +31,13 @@ public class  StockController {
      *
      * @return dictionary where the key is the product id and the value is an array of products with the same id
      */
-    public Map<String, List<Product>> getCatalogue() {
-        throw new UnsupportedOperationException("Not supported yet.");
+
+    public Map<String, Product> getCatalogue() {
+
+        System.out.println();
+        System.out.println("Catalogue of products:" + "\n" + catalogueProducts);
+        System.out.println("\n");
+        return catalogueProducts;
     }
 
     /**
@@ -34,7 +47,20 @@ public class  StockController {
      * @return - list of existing products with same id or null if not found
      */
     public List<Product> getProductsWithSameId(final String productId) {
-        throw new UnsupportedOperationException("Not supported yet.");
+
+        int productFound = 0;
+        System.out.println("List of products with " + productId + ":");
+        for (int i = 0; i < productList.size(); i++) {
+            if (productList.get(i).getId() == productId) {
+                System.out.print(productList.get(i));
+                productFound = 1;
+            }
+        }
+        System.out.println("\n");
+        if (productFound == 1)
+            return productList;
+        else
+            return null;
     }
 
     /**
@@ -43,7 +69,10 @@ public class  StockController {
      * @return
      */
     public int getTotalNumberOfProducts() {
-        throw new UnsupportedOperationException("Not supported yet.");
+
+        System.out.println("Total number of products:" + catalogueProducts.size());
+        System.out.println("\n");
+        return catalogueProducts.size();
     }
 
     /**
@@ -52,8 +81,20 @@ public class  StockController {
      * @param productId - unique product id
      * @return true if at least one product was deleted or false instead
      */
-    public boolean removeAllProductsWitProductId(final String productId) {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public boolean removeAllProductsWithProductId(final String productId) {
+        int deleted = 0;
+        for (int i = 0; i < productList.size(); i++) {
+            if (productList.get(i).getId() == productId) {
+                deleted = 1;
+                productList.remove(i);
+                i--;
+            }
+        }
+
+        if (deleted == 0)
+            return false;
+        else
+            return true;
     }
 
     /**
@@ -65,5 +106,6 @@ public class  StockController {
      */
     public boolean updateProductPriceByProductId(final String productId, final Double price) {
         throw new UnsupportedOperationException("Not supported yet.");
+
     }
 }

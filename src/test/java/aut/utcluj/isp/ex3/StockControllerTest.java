@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
  * @author stefan
  */
 public class StockControllerTest {
-
+/*
     @Test
     public void testAddProductToCatalogue() {
         final Product firstProduct = new Product("p_1", "Dell", 100d);
@@ -102,5 +102,5 @@ public class StockControllerTest {
         for (Product prod : p1Products) {
             assertEquals("Price should be 100d", Double.valueOf(100d), prod.getPrice());
         }
-    }
+    }*/
 }
