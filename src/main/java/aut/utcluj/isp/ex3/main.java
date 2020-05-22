@@ -8,12 +8,13 @@ public class main {
         StockController stockController = new StockController();
 
         stockController.addProductToCatalogue(bere, 3);
+        System.out.println(stockController.getTotalNumberOfProducts());
         stockController.addProductToCatalogue(salam, 2);
         stockController.addProductToCatalogue(new Product("id3","Eugenia",0.5),10);
 
         stockController.getCatalogue();
-        stockController.getProductsWithSameId("id2");
-        stockController.getTotalNumberOfProducts();
+        System.out.println(stockController.getProductsWithSameId("id2"));
+        System.out.println(stockController.getTotalNumberOfProducts());
         stockController.removeAllProductsWithProductId("id2");
     }
 }

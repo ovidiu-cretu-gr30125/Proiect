@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce783243-24f7-4e3f-a388-17d7c15629bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/isp-lab-11-12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/isp-lab-11-12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/aut/utcluj/isp/ex3/StockControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aut/utcluj/isp/ex3/StockControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +23,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1c6ZDeFjj9QmfeR7jYmz9Mmhh38" />
   <component name="ProjectViewState">
@@ -60,14 +68,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in isp-lab-11-12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="isp-lab-11-12" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OnlineShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="isp-lab-11-12" />
       <extension name="coverage">
@@ -98,13 +98,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StockControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isp-lab-11-12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aut.utcluj.isp.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex3" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.StockControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.main (1)" />
-        <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.StockControllerTest" />
         <item itemvalue="JUnit.OnlineShopTest" />
         <item itemvalue="JUnit.ShopTest" />
-        <item itemvalue="JUnit.All in isp-lab-11-12" />
+        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -136,11 +151,11 @@
     </state>
     <state x="546" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1589998153937" />
     <state x="683" y="229" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589997055825" />
-    <state x="646" y="327" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589998084729">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="808" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590101076286">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="646" y="327" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1589998084729" />
-    <state x="808" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589851483167" />
+    <state x="808" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590101076286" />
     <state x="227" y="161" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1590069295153">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -149,26 +164,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589998037872" />
-    <state width="1490" height="209" key="GridCell.Tab.0.bottom" timestamp="1590075577729">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1590104589391">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1490" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590075577729" />
-    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589997323232" />
-    <state width="1490" height="209" key="GridCell.Tab.0.center" timestamp="1590075577729">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590104589391" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1590104589391">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1490" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590075577729" />
-    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589997323232" />
-    <state width="1490" height="209" key="GridCell.Tab.0.left" timestamp="1590075577729">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590104589391" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1590104589391">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1490" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590075577729" />
-    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589997323232" />
-    <state width="1490" height="209" key="GridCell.Tab.0.right" timestamp="1590075577729">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590104589391" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1590104589391">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1490" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590075577729" />
-    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589997323232" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590104589391" />
     <state width="1490" height="260" key="GridCell.Tab.1.bottom" timestamp="1590075550023">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

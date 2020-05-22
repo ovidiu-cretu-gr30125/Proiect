@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
  * @author stefan
  */
 public class StockControllerTest {
-/*
+
     @Test
     public void testAddProductToCatalogue() {
         final Product firstProduct = new Product("p_1", "Dell", 100d);
@@ -63,11 +63,11 @@ public class StockControllerTest {
         stockController.addProductToCatalogue(secondProduct, 2);
 
         assertEquals("Number of products before deletion", 3, stockController.getTotalNumberOfProducts());
-        boolean deletionStatus = stockController.removeAllProductsWitProductId("p_3");
+        boolean deletionStatus = stockController.removeAllProductsWithProductId("p_3");
         assertFalse("No product was deleted", deletionStatus);
         assertEquals("Number of products after first deletion", 3, stockController.getTotalNumberOfProducts());
 
-        deletionStatus = stockController.removeAllProductsWitProductId("p_2");
+        deletionStatus = stockController.removeAllProductsWithProductId("p_2");
         assertTrue("Two products were deleted", deletionStatus);
         assertEquals("Number of products should be 1", 1, stockController.getTotalNumberOfProducts());
     }
@@ -102,5 +102,5 @@ public class StockControllerTest {
         for (Product prod : p1Products) {
             assertEquals("Price should be 100d", Double.valueOf(100d), prod.getPrice());
         }
-    }*/
+    }
 }

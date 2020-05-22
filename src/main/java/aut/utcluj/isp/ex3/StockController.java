@@ -51,16 +51,19 @@ public class StockController {
         int productFound = 0;
         System.out.println("List of products with " + productId + ":");
         for (int i = 0; i < productList.size(); i++) {
-            if (productList.get(i).getId() == productId) {
+            if (productList.get(i).getId().equals(productId)) {
                 System.out.print(productList.get(i));
-                productFound = 1;
+                return productList;
+                ///productFound = 1;
             }
         }
         System.out.println("\n");
-        if (productFound == 1)
+        return null;
+        /*if (productFound == 1)
             return productList;
         else
             return null;
+    }*/
     }
 
     /**
@@ -69,10 +72,7 @@ public class StockController {
      * @return
      */
     public int getTotalNumberOfProducts() {
-
-        System.out.println("Total number of products:" + catalogueProducts.size());
-        System.out.println("\n");
-        return catalogueProducts.size();
+        return productList.size();
     }
 
     /**
@@ -84,7 +84,7 @@ public class StockController {
     public boolean removeAllProductsWithProductId(final String productId) {
         int deleted = 0;
         for (int i = 0; i < productList.size(); i++) {
-            if (productList.get(i).getId() == productId) {
+            if (productList.get(i).getId().equals(productId)) {
                 deleted = 1;
                 productList.remove(i);
                 i--;
