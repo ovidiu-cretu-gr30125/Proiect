@@ -38,9 +38,9 @@ public class StockController {
 
     public Map<String, Product> getCatalogue() {
 
-        System.out.println();
-        System.out.println("Catalogue of products:" + "\n" + catalogueProducts);
-        System.out.println("\n");
+       /// System.out.println();
+        ///System.out.println("Catalogue of products:" + "\n" + catalogueProducts);
+        ///System.out.println("\n");
         return catalogueProducts;
     }
 

@@ -4,7 +4,7 @@ import java.util.List;
 
 public class main {
     public static void main(String[] args) {
-        Product smartphone = new Product("id1", "iphone", 2.0);
+        /*Product smartphone = new Product("id1", "iphone", 2.0);
         Product laptop = new Product("id2", "macbook", 6.0);
 
         StockController stockController = new StockController();
@@ -28,7 +28,11 @@ public class main {
         for (Product prod: p1Products) {
             System.out.println(prod.getId());
             System.out.println(prod.getPrice());
-        }
+        }*/
+        StockController stockController1 = new StockController();
+        View view = new View("Shop");
+        Controller controller = new Controller(stockController1,view);
+        controller.initController();
 
     }
 }

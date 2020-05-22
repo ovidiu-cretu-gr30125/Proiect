@@ -58,7 +58,7 @@ public class UserCart implements ICartDetails {
 
         }
         if (found == 0) {
-            throw new ProductNotFoundException("Product not found");
+            ///throw new ProductNotFoundException("Product not found");
         }
 
 
@@ -88,8 +88,6 @@ public class UserCart implements ICartDetails {
                 totalPrice = totalPrice + quantity * i;
             }
         }
-
-
         return "Total price: " + totalPrice;
     }
 }
