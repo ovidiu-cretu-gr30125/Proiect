@@ -2,6 +2,7 @@ package aut.utcluj.isp.ex3;
 
 import com.sun.deploy.security.SelectableSecurityManager;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -17,7 +18,7 @@ public class StockController {
      */
     private Map<String, Product> catalogueProducts = new HashMap<String, Product>();
     private List<Product> productList = new ArrayList<>();
-    private List<Product> productsId =new ArrayList<>();
+    private List<Product> productsId=null;
 
     public void addProductToCatalogue(final Product product, final int quantity) {
 
@@ -50,7 +51,8 @@ public class StockController {
      * @return - list of existing products with same id or null if not found
      */
     public List<Product> getProductsWithSameId(final String productId) {
-boolean productFound=false;
+        boolean productFound=false;
+       productsId = new ArrayList<>();
         System.out.println("List of products with " + productId + ":");
         for (int i = 0; i < productList.size(); i++) {
             if (productList.get(i).getId().equals(productId)) {
@@ -60,7 +62,7 @@ boolean productFound=false;
             }
         }
         System.out.println("\n");
-        if(productFound==false){
+        if(!productFound){
             return null;
         }
         else
@@ -111,13 +113,13 @@ boolean productFound=false;
         boolean priceUpdated = false;
         for (int i = 0; i < productList.size(); i++) {
             if (productList.get(i).getId().equals(productId)){
-            if(productList.get(i).getPrice()!=price) {
+            if(!productList.get(i).getPrice().equals(price)) {
                 productList.get(i).setPrice(price);
                 priceUpdated = true;
             }
             }
         }
-        if (priceUpdated == true) {
+        if (priceUpdated) {
             return true;
         } else {
             return false;

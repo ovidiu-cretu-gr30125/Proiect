@@ -1,5 +1,7 @@
 package aut.utcluj.isp.ex3;
 
+import java.util.List;
+
 public class main {
     public static void main(String[] args) {
         Product smartphone = new Product("id1", "iphone", 2.0);
@@ -21,6 +23,12 @@ public class main {
 
         stockController.updateProductPriceByProductId("id1", 500.0);
         stockController.getProductsWithSameId("id2");
+        stockController.getProductsWithSameId("id1");
+        List<Product> p1Products = stockController.getProductsWithSameId("id1");
+        for (Product prod: p1Products) {
+            System.out.println(prod.getId());
+            System.out.println(prod.getPrice());
+        }
 
     }
 }
