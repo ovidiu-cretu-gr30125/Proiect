@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce783243-24f7-4e3f-a388-17d7c15629bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/isp-lab-11-12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/isp-lab-11-12.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/StockController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/main.java" afterDir="false" />
@@ -41,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.main (1)">
+  <component name="RunManager" selected="JUnit.StockControllerTest">
     <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.main" />
       <module name="isp-lab-11-12" />
@@ -51,49 +50,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex1.main" />
-      <module name="isp-lab-11-12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aut.utcluj.isp.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OnlineShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="isp-lab-11-12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aut.utcluj.isp.ex2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex2" />
-      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex2.OnlineShopTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="isp-lab-11-12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aut.utcluj.isp.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex1" />
-      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex1.ShopTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,13 +69,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StockControllerTest.testGetProductsWithSameId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isp-lab-11-12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aut.utcluj.isp.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex3" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.StockControllerTest" />
+      <option name="METHOD_NAME" value="testGetProductsWithSameId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockControllerTest.testRemoveAllProductsWitProductId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isp-lab-11-12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aut.utcluj.isp.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex3" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.StockControllerTest" />
+      <option name="METHOD_NAME" value="testRemoveAllProductsWitProductId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockControllerTest.testUpdateProductPriceByProductId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isp-lab-11-12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aut.utcluj.isp.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex3" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.StockControllerTest" />
+      <option name="METHOD_NAME" value="testUpdateProductPriceByProductId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main (1)" />
         <item itemvalue="JUnit.StockControllerTest" />
-        <item itemvalue="JUnit.OnlineShopTest" />
-        <item itemvalue="JUnit.ShopTest" />
-        <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.StockControllerTest.testUpdateProductPriceByProductId" />
+        <item itemvalue="Application.main (1)" />
+        <item itemvalue="JUnit.StockControllerTest.testRemoveAllProductsWitProductId" />
+        <item itemvalue="JUnit.StockControllerTest.testGetProductsWithSameId" />
       </list>
     </recent_temporary>
   </component>
@@ -137,9 +141,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1736" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589929349672">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="61" y="58" width="1158" height="565" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590155703552">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="61" y="58" width="1158" height="565" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1590155703552" />
     <state x="92" y="92" width="1736" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589929349672" />
     <state x="584" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1590074698765">
       <screen x="0" y="0" width="1536" height="824" />
@@ -164,41 +169,49 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589998037872" />
-    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1590104589391">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1202" height="160" key="GridCell.Tab.0.bottom" timestamp="1590155697266">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1202" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590155697266" />
     <state width="1490" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590075577729" />
     <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590104589391" />
-    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1590104589391">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1202" height="160" key="GridCell.Tab.0.center" timestamp="1590155697266">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1202" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590155697266" />
     <state width="1490" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590075577729" />
     <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590104589391" />
-    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1590104589391">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1202" height="160" key="GridCell.Tab.0.left" timestamp="1590155697266">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1202" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590155697266" />
     <state width="1490" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590075577729" />
     <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590104589391" />
-    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1590104589391">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1202" height="160" key="GridCell.Tab.0.right" timestamp="1590155697266">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1202" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590155697266" />
     <state width="1490" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590075577729" />
     <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590104589391" />
-    <state width="1490" height="260" key="GridCell.Tab.1.bottom" timestamp="1590075550023">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1202" height="200" key="GridCell.Tab.1.bottom" timestamp="1590155160047">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1202" height="200" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590155160047" />
     <state width="1490" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590075550023" />
-    <state width="1490" height="260" key="GridCell.Tab.1.center" timestamp="1590075550022">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1202" height="200" key="GridCell.Tab.1.center" timestamp="1590155160047">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1202" height="200" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1590155160047" />
     <state width="1490" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590075550022" />
-    <state width="1490" height="260" key="GridCell.Tab.1.left" timestamp="1590075550021">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1202" height="200" key="GridCell.Tab.1.left" timestamp="1590155160047">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1202" height="200" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1590155160047" />
     <state width="1490" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590075550021" />
-    <state width="1490" height="260" key="GridCell.Tab.1.right" timestamp="1590075550022">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1202" height="200" key="GridCell.Tab.1.right" timestamp="1590155160047">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1202" height="200" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1590155160047" />
     <state width="1490" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590075550022" />
     <state x="457" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1590001147240">
       <screen x="0" y="0" width="1536" height="824" />
@@ -208,6 +221,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="11" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1590059685260" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1590155555209">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1590155555209" />
     <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590071634568">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

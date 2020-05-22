@@ -56,8 +56,8 @@ public class StockControllerTest {
 
     @Test
     public void testRemoveAllProductsWitProductId() {
-        final Product firstProduct = new Product("p_1", "Dell", 100d);
-        final Product secondProduct = new Product("p_2", "Toshiba", 200d);
+        final Product firstProduct = new Product("p_1", "Dell", 100.0);
+        final Product secondProduct = new Product("p_2", "Toshiba", 200.0);
         final StockController stockController = new StockController();
         stockController.addProductToCatalogue(firstProduct, 1);
         stockController.addProductToCatalogue(secondProduct, 2);
@@ -74,33 +74,33 @@ public class StockControllerTest {
 
     @Test
     public void testUpdateProductPriceByProductId() {
-        final Product product = new Product("p_1", "Dell", 100d);
-        final Product secondProduct = new Product("p_2", "Toshiba", 200d);
+        final Product product = new Product("p_1", "Dell", 100.0);
+        final Product secondProduct = new Product("p_2", "Toshiba", 200.0);
         final StockController stockController = new StockController();
         stockController.addProductToCatalogue(product, 2);
         stockController.addProductToCatalogue(secondProduct, 3);
 
-        boolean updateStatus = stockController.updateProductPriceByProductId("p_3", 500d);
+        boolean updateStatus = stockController.updateProductPriceByProductId("p_3", 500.0);
         assertFalse("No product should be updated", updateStatus);
 
         List<Product> p2Products = stockController.getProductsWithSameId("p_2");
         assertNotNull("p2 products should not be null", p2Products);
         for (Product prod : p2Products) {
-            assertEquals("Price should be 200d", Double.valueOf(200d), prod.getPrice());
+            assertEquals("Price should be 200d",Double.valueOf(200.0), prod.getPrice());
         }
 
         // update p2 price
-        updateStatus = stockController.updateProductPriceByProductId("p_2", 500d);
+        updateStatus = stockController.updateProductPriceByProductId("p_2", 500.0);
         assertTrue("Status should be true", updateStatus);
         List<Product> p2ProductsAfterUpdate = stockController.getProductsWithSameId("p_2");
         for (Product prod : p2ProductsAfterUpdate) {
-            assertEquals("Price should be 500d", Double.valueOf(500d), prod.getPrice());
+            assertEquals("Price should be 500d", Double.valueOf(500.0), prod.getPrice());
         }
 
         // p_1 products should not be updated
         List<Product> p1Products = stockController.getProductsWithSameId("p_1");
-        for (Product prod : p1Products) {
-            assertEquals("Price should be 100d", Double.valueOf(100d), prod.getPrice());
+        for (Product prod: p1Products) {
+            assertEquals("Price should be 500d", Double.valueOf(100d), prod.getPrice());
         }
     }
 }

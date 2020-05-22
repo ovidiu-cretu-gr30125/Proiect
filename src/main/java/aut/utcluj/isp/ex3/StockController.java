@@ -1,5 +1,7 @@
 package aut.utcluj.isp.ex3;
 
+import com.sun.deploy.security.SelectableSecurityManager;
+
 import java.util.*;
 
 /**
@@ -15,6 +17,7 @@ public class StockController {
      */
     private Map<String, Product> catalogueProducts = new HashMap<String, Product>();
     private List<Product> productList = new ArrayList<>();
+    private List<Product> productsId =new ArrayList<>();
 
     public void addProductToCatalogue(final Product product, final int quantity) {
 
@@ -47,23 +50,23 @@ public class StockController {
      * @return - list of existing products with same id or null if not found
      */
     public List<Product> getProductsWithSameId(final String productId) {
-
-        int productFound = 0;
+boolean productFound=false;
         System.out.println("List of products with " + productId + ":");
         for (int i = 0; i < productList.size(); i++) {
             if (productList.get(i).getId().equals(productId)) {
                 System.out.print(productList.get(i));
-                return productList;
-                ///productFound = 1;
+                productsId.add(productList.get(i));
+                productFound=true;
             }
         }
         System.out.println("\n");
-        return null;
-        /*if (productFound == 1)
-            return productList;
-        else
+        if(productFound==false){
             return null;
-    }*/
+        }
+        else
+        {
+            return productsId;
+        }
     }
 
     /**
@@ -105,7 +108,22 @@ public class StockController {
      * @return true if at least one product was updated or false instead
      */
     public boolean updateProductPriceByProductId(final String productId, final Double price) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        boolean priceUpdated = false;
+        for (int i = 0; i < productList.size(); i++) {
+            if (productList.get(i).getId().equals(productId)){
+            if(productList.get(i).getPrice()!=price) {
+                productList.get(i).setPrice(price);
+                priceUpdated = true;
+            }
+            }
+        }
+        if (priceUpdated == true) {
+            return true;
+        } else {
+            return false;
+        }
 
     }
+
 }
+
