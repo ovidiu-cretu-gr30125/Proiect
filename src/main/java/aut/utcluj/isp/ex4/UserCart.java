@@ -1,8 +1,8 @@
 package aut.utcluj.isp.ex4;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
+import java.util.*;
 
 
 /**
@@ -38,7 +38,7 @@ public class UserCart implements ICartDetails {
             cardProducts.add(product);
             numberOfProducts++;
         }
-        totalPrice = product.getPrice() * quantity;
+        totalPrice += product.getPrice() * quantity;
     }
 
     /**
@@ -49,18 +49,21 @@ public class UserCart implements ICartDetails {
      */
     public void removeProductFromCart(final String productId) throws ProductNotFoundException {
         int found = 0;
-
-        for (int i = 0; i < cardProducts.size(); i++) {
+        int i;
+        Product product=null;
+        for (i = 0; i < cardProducts.size(); i++) {
             if (cardProducts.get(i).getProductId().equals(productId)) {
-                cardProducts.remove(i);
                 found = 1;
+                product=cardProducts.get(i);
+                break;
             }
 
         }
         if (found == 0) {
-            ///throw new ProductNotFoundException("Product not found");
+            throw new ProductNotFoundException("Product not found");
         }
-
+        cardProducts.remove(i);
+        totalPrice -= product.getPrice();
 
     }
 
@@ -77,17 +80,22 @@ public class UserCart implements ICartDetails {
 
     @Override
     public String getCartDetails() {
+       double detailPrice = 0;
+        Map<Product, Integer> products = new HashMap<>();
 
-        for (int i = 0; i < cardProducts.size(); i++) {
-            int quantity = 0;
-            for (int j = i + 1; j < cardProducts.size(); j++) {
-                if (cardProducts.get(i).getProductId().equals(cardProducts.get(j).getProductId())) {
-                    quantity++;
-                }
-                System.out.println("product" + i + "items" + quantity);
-                totalPrice = totalPrice + quantity * i;
+        for (Product product : cardProducts) {
+            if (!products.containsKey(product)) {
+                products.put(product, 0);
             }
+            products.put(product, products.get(product) + 1);
         }
-        return "Total price: " + totalPrice;
+        StringBuilder result = new StringBuilder();
+        for (Product key : products.keySet()) {
+            result.append("Product id: ").append(key.getProductId()).append(", Items: ").append(products.get(key)).append("\n");
+            detailPrice += (key.getPrice() * products.get(key));
+        }
+        result.append("Total price: ").append(detailPrice);
+
+        return result.toString();
     }
 }
