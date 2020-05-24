@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce783243-24f7-4e3f-a388-17d7c15629bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex4/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex4/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/isp-lab-11-12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/isp-lab-11-12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex4/UserCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex4/UserCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX4PROIECT.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.mdj" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,23 +145,23 @@
     </state>
     <state x="546" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1589998153937" />
     <state x="683" y="229" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589997055825" />
-    <state x="539" y="270" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590171970903">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="646" y="327" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590323355639">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="539" y="270" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1590171970903" />
     <state x="575" y="289" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1590161633333" />
-    <state x="646" y="327" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1589998084729" />
+    <state x="646" y="327" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1590323355639" />
     <state x="808" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590101076286" />
     <state x="227" y="161" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1590069295153">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="227" y="161" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590069295153" />
-    <state x="489" y="148" key="FileChooserDialogImpl" timestamp="1590251221692">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1590322776930">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590171810072" />
     <state x="489" y="148" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590251221692" />
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589998037872" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590322776930" />
     <state width="1877" height="198" key="GridCell.Tab.0.bottom" timestamp="1590283922431">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -224,12 +222,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="262" y="37" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1590252405084" />
-    <state x="380" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1590171803234">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="457" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1590322756492">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="380" y="195" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590171803234" />
     <state x="406" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590161579706" />
-    <state x="457" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590001147240" />
+    <state x="457" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590322756492" />
     <state x="209" y="11" key="new project wizard" timestamp="1590059685260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
