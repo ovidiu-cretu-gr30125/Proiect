@@ -8,7 +8,6 @@ import java.awt.*;
 public class Controller {
     private StockController stockController;
     private View view;
-    UIManager  uiManager= new UIManager();
 
     public Controller(StockController sc,View v){
         this.stockController=sc;
