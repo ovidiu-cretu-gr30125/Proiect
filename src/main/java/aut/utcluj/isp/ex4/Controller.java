@@ -54,8 +54,7 @@ public class Controller {
         }
         else{
             view.getDialogForCartDetails().setVisible(true);
-            view.getTextAreaForCartDetails().setText(userCart.getCartDetails());
-
+            view.getTextAreaForCartDetails().append(userCart.getCartDetails());
         }
     }
 

@@ -43,7 +43,7 @@ public class View {
         buttonCartDetails = new JButton("Get cart details");
         dialogForCartDetails = new JDialog();
         textAreaForCartDetails = new JTextArea();
-        scrollPaneForCartDetails = new JScrollPane();
+        scrollPaneForCartDetails = new JScrollPane(textAreaForCartDetails);
 
 
         labelForProductId.setBounds(5,5,65,25);

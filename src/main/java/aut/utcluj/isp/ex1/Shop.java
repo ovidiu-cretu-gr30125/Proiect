@@ -29,7 +29,6 @@ public class Shop {
     public boolean equals(Object o){
         if(o==null) return false;
         if(!(o instanceof Shop)) return false;
-        Shop other = (Shop) o;
         return this.name.equals(((Shop) o).name) &&
                 this.city.equals(((Shop) o).city);
     }

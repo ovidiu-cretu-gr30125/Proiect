@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce783243-24f7-4e3f-a388-17d7c15629bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/isp-lab-11-12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/isp-lab-11-12.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EX4PROIECT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled.mdj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex1/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex1/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex1/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex4/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex4/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex4/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex4/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1c6ZDeFjj9QmfeR7jYmz9Mmhh38" />
   <component name="ProjectViewState">
@@ -46,19 +56,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.main" />
-      <module name="isp-lab-11-12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aut.utcluj.isp.ex3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ColocviuTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="isp-lab-11-12" />
       <extension name="coverage">
@@ -69,6 +66,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="aut.utcluj.isp" />
       <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ColocviuTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isp-lab-11-12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aut.utcluj.isp.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex3" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.StockControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,18 +101,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserCartTest.testGetCartDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="isp-lab-11-12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aut.utcluj.isp.*" />
+          <option name="PATTERN" value="aut.utcluj.isp.ex4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex4" />
-      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex4.UserCartTest" />
-      <option name="METHOD_NAME" value="testGetCartDetails" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex4.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,9 +120,9 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ColocviuTestSuite" />
+        <item itemvalue="JUnit.UserTest" />
         <item itemvalue="JUnit.UserCartTest" />
-        <item itemvalue="JUnit.UserCartTest.testGetCartDetails" />
-        <item itemvalue="Application.main (1)" />
+        <item itemvalue="JUnit.StockControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -129,11 +140,11 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1736" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590277583156">
+    <state x="92" y="92" width="1736" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590331643735">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="61" y="58" width="1158" height="565" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1590155703552" />
-    <state x="92" y="92" width="1736" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590277583156" />
+    <state x="92" y="92" width="1736" height="896" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590331643735" />
     <state x="730" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1590173957870">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -145,13 +156,13 @@
     </state>
     <state x="546" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1589998153937" />
     <state x="683" y="229" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1589997055825" />
-    <state x="646" y="327" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590323355639">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="808" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590331546077">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="539" y="270" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1590171970903" />
     <state x="575" y="289" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1590161633333" />
     <state x="646" y="327" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1590323355639" />
-    <state x="808" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590101076286" />
+    <state x="808" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1590331546077" />
     <state x="227" y="161" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1590069295153">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -162,34 +173,34 @@
     <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590171810072" />
     <state x="489" y="148" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590251221692" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590322776930" />
-    <state width="1877" height="198" key="GridCell.Tab.0.bottom" timestamp="1590283922431">
+    <state width="1877" height="198" key="GridCell.Tab.0.bottom" timestamp="1590332543490">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1202" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590155697266" />
     <state width="1323" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590255402010" />
     <state width="1490" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590075577729" />
-    <state width="1877" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590283922431" />
-    <state width="1877" height="198" key="GridCell.Tab.0.center" timestamp="1590283922430">
+    <state width="1877" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590332543490" />
+    <state width="1877" height="198" key="GridCell.Tab.0.center" timestamp="1590332543490">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1202" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590155697266" />
     <state width="1323" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590255402009" />
     <state width="1490" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590075577729" />
-    <state width="1877" height="198" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590283922430" />
-    <state width="1877" height="198" key="GridCell.Tab.0.left" timestamp="1590283922430">
+    <state width="1877" height="198" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590332543490" />
+    <state width="1877" height="198" key="GridCell.Tab.0.left" timestamp="1590332543490">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1202" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590155697266" />
     <state width="1323" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590255402009" />
     <state width="1490" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590075577729" />
-    <state width="1877" height="198" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590283922430" />
-    <state width="1877" height="198" key="GridCell.Tab.0.right" timestamp="1590283922431">
+    <state width="1877" height="198" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590332543490" />
+    <state width="1877" height="198" key="GridCell.Tab.0.right" timestamp="1590332543490">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1202" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590155697266" />
     <state width="1323" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590255402009" />
     <state width="1490" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590075577729" />
-    <state width="1877" height="198" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590283922431" />
+    <state width="1877" height="198" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590332543490" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1590277492217">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
